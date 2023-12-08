@@ -111,6 +111,8 @@ menus:
   hsTree: Big Data Tree
   hsMenuoverflow: Menu Overflow Show Tooltip Text
   hsChildMenuoverflow: Child Menu Overflow Show Tooltip Text
+  zm-eating: eating
+  zm-draggable: draggable
 status:
   hsLoad: Loading...
 login:
