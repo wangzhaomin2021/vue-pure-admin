@@ -2,6 +2,7 @@
 import { ref } from "vue";
 import { Base, Multi, PicUpload } from "./components";
 
+// 名称
 defineOptions({
   name: "Editor"
 });

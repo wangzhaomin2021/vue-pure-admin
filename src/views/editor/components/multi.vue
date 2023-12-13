@@ -1,9 +1,11 @@
+<!-- wzm： 多实例编辑器 -->
 <script setup lang="ts">
 import ReCol from "@/components/ReCol";
 import { onBeforeUnmount, ref, shallowRef } from "vue";
 import "@wangeditor/editor/dist/css/style.css";
 import { Editor, Toolbar } from "@wangeditor/editor-for-vue";
 
+// 名称
 defineOptions({
   name: "MultiEditor"
 });

@@ -1,8 +1,10 @@
+<!-- wzm： 编辑器图片上传示例 -->
 <script setup lang="ts">
 import { onBeforeUnmount, ref, shallowRef } from "vue";
 import "@wangeditor/editor/dist/css/style.css";
 import { Editor, Toolbar } from "@wangeditor/editor-for-vue";
 
+// 名称
 defineOptions({
   name: "picUpload"
 });

@@ -1,5 +1,6 @@
-import { $t } from "@/plugins/i18n";
-import { editor } from "@/router/enums";
+// wzm
+import { $t } from "@/plugins/i18n"; // 国际化
+import { editor } from "@/router/enums"; // 编辑器排序权重
 
 export default {
   path: "/editor",
@@ -15,8 +16,8 @@ export default {
       name: "Editor",
       component: () => import("@/views/editor/index.vue"),
       meta: {
-        title: $t("menus.hseditor"),
-        keepAlive: true
+        title: $t("menus.hseditor"), // 页面标题
+        keepAlive: true // 该页面开启缓存
       }
     }
   ]

@@ -1,11 +1,17 @@
+<!-- wzm: wangeditor基础使用 -->
 <script setup lang="ts">
 import "@wangeditor/editor/dist/css/style.css";
 import { Editor, Toolbar } from "@wangeditor/editor-for-vue";
+import { Boot } from "@wangeditor/editor";
 import { onBeforeUnmount, ref, shallowRef, onMounted } from "vue";
+import { MarkdownImportPluginMenuConf } from "../plugins/menu";
 
+// 组件名称
 defineOptions({
   name: "BaseEditor"
 });
+
+Boot.registerMenu(MarkdownImportPluginMenuConf);
 
 const mode = "default";
 // 编辑器实例，必须用 shallowRef
@@ -21,7 +27,13 @@ onMounted(() => {
   }, 1500);
 });
 
-const toolbarConfig: any = { excludeKeys: "fullScreen" };
+const toolbarConfig: any = {
+  excludeKeys: "fullScreen",
+  insertKeys: {
+    index: 0,
+    keys: ["mdFileImport"]
+  }
+};
 const editorConfig = { placeholder: "请输入内容..." };
 
 const handleCreated = editor => {

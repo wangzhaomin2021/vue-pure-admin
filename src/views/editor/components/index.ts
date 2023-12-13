@@ -1,3 +1,4 @@
+// wzm： 导出
 import base from "./base.vue";
 import multi from "./multi.vue";
 import picUpload from "./picUpload.vue";
