@@ -44,7 +44,7 @@ onMounted(() => {
 });
 
 // 注意这里得加引号 该css格式要求
-const placehoderText = computed(() => `"${props.placeholder}"`);
+const placeholderText = computed(() => `"${props.placeholder}"`);
 
 watch(
   () => props.editable,
@@ -90,7 +90,7 @@ function saveText(event: KeyboardEvent) {
 
 <style lang="scss" scoped>
 .editable-title {
-  --placeholder: v-bind(placehodertext);
+  --placeholder: v-bind(placeholdertext);
   --accent-text: skyblue;
   --time-text: #666;
 

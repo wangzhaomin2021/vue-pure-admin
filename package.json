@@ -75,6 +75,7 @@
     "localforage": "^1.10.0",
     "markdown-it": "^14.0.0",
     "md-editor-v3": "2.7.2",
+    "mime": "^4.0.1",
     "mint-filter": "^4.0.3",
     "mitt": "^3.0.1",
     "nprogress": "^0.2.0",

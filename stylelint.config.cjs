@@ -82,7 +82,8 @@ module.exports = {
         "rules"
       ],
       { severity: "warning" }
-    ]
+    ],
+    "function-no-unknown": [true, { ignoreFunctions: ["v-bind"] }]
   },
   ignoreFiles: ["**/*.js", "**/*.ts", "**/*.jsx", "**/*.tsx", "report.html"]
 };
