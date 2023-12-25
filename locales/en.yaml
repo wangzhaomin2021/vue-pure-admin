@@ -113,6 +113,11 @@ menus:
   hsChildMenuoverflow: Child Menu Overflow Show Tooltip Text
   zm-eating: eating
   zm-draggable: draggable
+  zm-editable-block: editable-block
+  zm-download: download
+  zm-video-assistant: video-assistant
+  zm-scroll-text: scroll-text
+  zm-animation: animation
 status:
   hsLoad: Loading...
 login:

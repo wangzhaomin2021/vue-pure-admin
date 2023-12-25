@@ -113,6 +113,11 @@ menus:
   hsChildMenuoverflow: 菜单超出显示 Tooltip 文字提示
   zm-eating: 蚕食
   zm-draggable: 拖拽
+  zm-editable-block: 可编辑块
+  zm-download: 文件下载
+  zm-video-assistant: 视频助手
+  zm-scroll-text: 滚动文本
+  zm-animation: 动画
 status:
   hsLoad: 加载中...
 login:
