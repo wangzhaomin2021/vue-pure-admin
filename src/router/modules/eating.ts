@@ -57,6 +57,14 @@ export default {
       meta: {
         title: $t("menus.zm-animation")
       }
+    },
+    {
+      path: "/eating/vue-use",
+      name: "eating-vue-use",
+      component: () => import("@/views/eating/VueUse.vue"),
+      meta: {
+        title: "vue-use"
+      }
     }
   ]
 } satisfies RouteConfigsTable;
