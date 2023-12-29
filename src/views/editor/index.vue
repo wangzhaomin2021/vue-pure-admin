@@ -11,7 +11,7 @@ const activeNames = ref(["1"]);
 </script>
 
 <template>
-  <el-card shadow="never">
+  <el-card v-star-shine="{}" shadow="never">
     <template #header>
       <div class="card-header">
         <span class="font-medium">

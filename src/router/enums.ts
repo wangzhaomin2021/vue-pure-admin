@@ -3,7 +3,7 @@
 // const home = 0 // 平台规定只有 home 路由的 rank 才能为 0 ，所以后端在返回 rank 的时候需要从 1 开始哦
 const [
   home,
-
+  secondspring,
   eating,
   doc,
   utils,
@@ -29,6 +29,7 @@ const [
 
 export {
   home,
+  secondspring,
   eating, // 蚕食
   doc,
   utils,

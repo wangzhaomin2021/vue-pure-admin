@@ -118,6 +118,8 @@ menus:
   zm-video-assistant: video-assistant
   zm-scroll-text: scroll-text
   zm-animation: animation
+  zm-secondspring: secondspring
+  zm-secondspring-todos: todos·secondspring
 status:
   hsLoad: Loading...
 login:

@@ -118,6 +118,8 @@ menus:
   zm-video-assistant: 视频助手
   zm-scroll-text: 滚动文本
   zm-animation: 动画
+  zm-secondspring: 第二春
+  zm-secondspring-todos: 待办·二春
 status:
   hsLoad: 加载中...
 login:
